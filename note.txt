@@ -1,0 +1,128 @@
+
+        -------------------------------------------------
+                HTML - Hyper Text Markup Languauge
+        -------------------------------------------------
+
+        1. Markup Languauge : 
+        2. HTML - used to display contents in webpage
+        3. HTML documents - collection of HTML Elements
+            - HTML Elements : starting-tag,content,ending-tag
+                - starting tag : content in <tag-name>
+                - ending tag : 
+                ex: <tag-name>content</tag-name>
+            - Structure Of HTML
+                <html>
+                    <head>
+                        <title> title </title>
+                    </head>
+                    <body>
+                        contents to be displays in webpage
+                    </body>
+                </html>
+        4. Latest Version of HTML : HTML5
+        5. Basic Tags : used to display content in webpage
+            - Headings : h1-h6 tags
+            - paragraph - p tag
+            - Text formatting tags
+                - bold - b tag
+                - Italics - i tag / em tag
+                - highlight - mark tag
+                - strikeout content - s tag
+                - superlative content - sup tag
+                - subscript content - sub tag
+            - links - anchor / a tag
+                - href : hyperReference Text ()
+            - List
+                - Ordered List - ol tag, li tag
+                - Unordered list - ul tag, li tag
+            - Table : table tag
+                - thead tag : table head
+                - tbody tag : table body
+                - tr tag : row
+                - th tag / td tag : column
+            - img tag : image
+                - src : source file
+                - alt : alternative text
+            - video tag
+            - break : br tag
+            - Containers tag 
+                - div tag
+                - section tag
+                - article tag
+            - iframe tag - EMbeding content in a webpage
+            - form tag 
+                - input tag : user can input data
+                    - text, number, date, 
+                - Check box
+                - dropdown
+                - Radio Button
+                - Button
+        6. Tags can be classified according to their display in browser
+            - Block Elements : h1-h6 tag, p tag
+            - Inline Elements : a tag
+        7. Semantic Tags : describes its meaning  to both browser and developer
+             - header tag
+             - nav tag
+             - section tag
+             - article tag 
+             - aside tag
+             - footer tag
+
+        -------------------------------------------------
+                CSS - Cascading Style Sheet
+        -------------------------------------------------
+
+        1. used to give style to html elements
+        2. Ways to apply CSS in html Elements
+            - Inline CSS : use style attribute
+                - syntax : style="property:value;"
+            - Internal CSS : use style tag
+                - syntax : <style>
+                                selectors{
+                                    property:value;
+                                }
+                           </style>
+            - External CSS : use External css file, we have to link css file to html file
+                - syntax :  selectors{
+                                    property:value;
+                                }
+        3. CSS Selectors : used for selecting html elements to css file
+            - tag name 
+            - id 
+            - class
+            - Universal Selectors
+            - CSS Combinators
+                - Grouping selectors : using comma
+                - Descendant selector : using space
+                - Child selector : using >
+                - Sibling Selectors : using ~
+                - Immeadiate Sibling selector : using +
+            - CSS Boxmodel
+                - border
+                - margin
+                - padding
+            - Css property
+                - float : float elememts in left or right
+                - position : control position of elememts in html
+                    - static
+                    - fixed
+                    - relative
+                    - absolute
+                    - sticky
+                - z-index
+                - flexBox : used to arrange html elements in either row/column
+                    - flex-container : parent tag which hold elements that to be arrangeed as row/column, apply flex to th parent
+                    - flex-direction
+                    - justify-content
+                    - align-items
+                - grid system : used to arrange html elements in either row/column, we can setup column/row width
+                - Pseudo-class : define a special state of an element.
+                    - syntax: selector:pseudo-class { property: value; }
+                - background-image: linear-gradient(direction, color-stop1, color-stop2, ...);
+                - animation in css
+                    - animation property
+                    - @keyframes : used to define animation
+                - Animation Libraries
+                    - animate style - https://animate.style/
+                    - aos animation - https://michalsnik.github.io/aos/
+                    - locomotive scroll - https://locomotivemtl.github.io/locomotive-scroll/
